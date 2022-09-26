@@ -66,7 +66,7 @@ one = lambda : int(inputing())
 for index in range(1,one()+1):
     a,b = wow()
     c = a-1
-    print(f"Case {index}:",b-min(b,c))
+    print("Case {index}:",b-min(b,c))
     
     
     
