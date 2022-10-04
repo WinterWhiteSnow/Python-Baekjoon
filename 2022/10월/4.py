@@ -94,11 +94,80 @@ one = lambda : int(inputing())
 # cnt+=cal(plus_list,plus_l)+cal(minus_list,minus_l)
 # print(cnt)
 
-
-
-
-
-
+# https://www.acmicpc.net/problem/1132
+# n_dict = {}
+# first_list = []
+# for _ in range(one()):
+#     num = inputing()
+#     first_list.append(num[0])
+#     num=num[::-1]
+#     l = len(num)
+#     for i in range(l):
+#         a = num[i]
+#         if a not in n_dict:
+#             n_dict[a]=10**i
+#         else:
+#             n_dict[a]+=10**i
+# list_list = list(n_dict.items())
+# f_list = []
+# n_list = []
+# for i in range(len(list_list)):
+#     a,b = list_list[i]
+#     if a in first_list:
+#         c=1
+#         f_list.append([a,b,c])
+#     else:
+#         c=0
+#         n_list.append([a,b,c])
+# f_list.sort(key=lambda x: x[1],reverse=True)
+# n_list.sort(key=lambda x: x[1])
+# if len(list_list)==10:
+#     if n_list:
+#         for i in range(len(f_list)):
+#             score = f_list[i][1]
+#             start = 0
+#             end = len(n_list)-1
+#             # print("end",end)
+#             while start<=end:
+#                 mid = (start+end)//2
+#                 mid_score = n_list[mid][1]
+#                 if score > mid_score:
+#                     start = mid+1
+#                 else:
+#                     end=mid-1
+#             start = min(len(n_list)-1,start)
+#             if n_list[start][1]<score:
+#                 n_list.insert(start+1,f_list[i])
+#             else:
+#                 if start == 0:
+#                     start +=1
+#                 n_list.insert(start,f_list[i])
+#         n_list = n_list[::-1]
+#         # print(n_list)
+#         num = 9
+#         cnt = 0
+#         for i in n_list:
+#             # print(i)
+#             cnt+=i[1]*num
+#             num-=1
+#         print(cnt)
+#     else:
+#         cnt = 0
+#         num = 9
+#         for i in f_list:
+#             cnt+=i[1]*num
+#             num-=1
+#         print(cnt)
+# else:
+#     # print("wow!")
+#     list_list = sorted(list_list,key=lambda x:x[1],reverse=True)
+#     print(list_list)
+#     cnt = 0
+#     num = 9
+#     for i in list_list:
+#         cnt+=i[1]*num
+#         num-=1
+#     print(cnt)
 
 
 
