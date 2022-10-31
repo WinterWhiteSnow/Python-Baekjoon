@@ -68,14 +68,7 @@ one = lambda : int(inputing())
 # else:
 #     print(0)
 
-n = one()
-n_list = [1]*(n+1)
-l = n+1
-for i in range(1,n+1):
-    for a in range(i,len(n_list),i):
-        n_list[a] = not n_list[a]
-n_list=n_list[1:]
-print(n_list.count(False))
+
 
 
 
