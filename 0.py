@@ -15,8 +15,8 @@ one = lambda : int(inputing())
 #     wow.write("\none = lambda : int(inputing())")
 
 #폴더 생성
-for i in range(4,70):
-   os.mkdir(f"C:/Users/선옥/Desktop/블리치 스캔본/{i}권")
+# for i in range(1,13):
+#    os.mkdir(f"C:\\Users\\선옥\\Desktop\\코딩\\백준 파이썬\\2023\\{i}월")
 
     
 
